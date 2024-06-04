@@ -1,0 +1,66 @@
+<?php
+              session_start();
+              $name = $_SESSION['username']
+?>
+
+
+<html>
+		<head>
+
+		<title>
+			Tour Partner.BD
+		</title>
+
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<?php
+			include 'nav.css';
+			include("design.css");
+		
+		?>
+		        <link rel="stylesheet" href="css/style.css">
+		    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <link rel="stylesheet" href="css/main.css">
+
+
+	</head>
+	
+	<body style="background-color: #E0E0E0" >
+
+
+	
+	<div class="top">
+			<a href="admin.php">Admin Login</a>
+			<a class="topright" href="logout.php">Logout</a>
+			<a class="topright"><?php echo $name; ?></a>
+		
+			
+		</div>
+
+	
+		<div style="background-color: #ffffff">
+		
+			<h1 style="text-align:center" >Welcome To TOURPARTNER.COM.BD</h1>
+		
+	<div class="topnav">
+			<a  href="splash_screen.php">Home</a>
+			<a  href="about.php">About</a>
+			<a href="tour_package.php">Tour Package</a>
+			<a href="privacy_policy.php">Tour Destination</a>
+			<a class="active" href="terms.php">Terms of Use</a>
+			<a href="contact_us.php">Contact Us</a>
+			<a class="topright" href="location.php">Location Information</a>
+			
+		</div>
+		<section class="breadcrumb_area">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="topnav">
+                <div class="page-cover text-center">
+                    <h2 class="page-cover-tittle">Terms Of Use</h2>
+                  
+                </div>
+            </div>
+        </section>
+				</div>
+		</body>
+
+</html>

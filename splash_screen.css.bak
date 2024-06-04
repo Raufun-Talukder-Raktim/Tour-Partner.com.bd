@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+.heading h1{
+	  font-size: 50px;
+  color: #1b1b1b;
+  font-weight: 500;
+}
+.Splash_image{
+	  height: 100%;
+	  
+}

@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<?php
+			include 'nav.css';
+		?>
+	</head>
+<body>
+
+	<div class="topnav">
+		<a href="splash_screen.php">Home</a>
+		<a class="active"  href="#news">Login</a>
+		<a href="sign_in.php">Signin</a>
+		<a href="about.php">About</a>
+	</div>
+
+
+</body>
+</html>
