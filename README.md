@@ -1,0 +1,1 @@
+This was a project of 3.1 software development. This project all about tour manager where user can book on a tour if he/she wanted. There also is a login/signup module. It has a chatting system with the admin panel .
