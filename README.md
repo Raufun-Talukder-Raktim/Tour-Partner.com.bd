@@ -1,1 +1,1 @@
-This was a project of 3.1 software development Lab. This project all about tour management where user can book on a tour if he/she wanted. There also is a login/signup module. It has a chatting system with the admin panel .
+This was a project of 3.1 software development Lab. This project all about tour management where user can book on a tour if he/she wanted. There also is a login/signup module. It has a chatting system with the admin panel. There is also a page dedicate to the information of the tour places.
